@@ -1,0 +1,6 @@
+framework module Pods_vb_Example {
+  umbrella header "Pods-vb_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
