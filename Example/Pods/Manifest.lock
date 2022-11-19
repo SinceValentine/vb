@@ -1,5 +1,5 @@
 PODS:
-  - vb (0.1.1)
+  - vb (0.1.2)
 
 DEPENDENCIES:
   - vb (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  vb: d511b6ec943f351bccf695f1a4e084e88befa67b
+  vb: 3b82584c8f026e5c2eb608b7718ec1e999fbbea0
 
 PODFILE CHECKSUM: 2ff41026565c04d805c299ce81c8948146c3fc5c
 
