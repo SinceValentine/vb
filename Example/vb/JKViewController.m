@@ -8,7 +8,7 @@
 
 #import "JKViewController.h"
 #import <vb/Test.h>
-
+#import <vb/vb-Swift.h>
 @interface JKViewController ()
 
 @end
@@ -19,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [Test printLog];
+    [Stest pp];
 }
 
 - (void)didReceiveMemoryWarning

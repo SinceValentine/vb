@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063A14782E193B52BCF44B9EB9EB8AD7 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 432A70B68155E7269CEB010D1F8181C2 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC82F84701A4326177E0F7673100D7D /* vb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5060CD17B8F19B6581D6BA8406A1F2EE /* vb-dummy.m */; };
+		3D2483C1628AF55207D28F82FDA70C68 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 082F8C23A8C0F803B1034DAEC34EAE92 /* Test.m */; };
+		410898EED88295C6271EDFF650DFF7D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		43E5F8DE5FB77E865766DB8B3C8B937E /* Pods-vb_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B6A5085A032831A0E18EE3B5DB2CCA /* Pods-vb_Example-dummy.m */; };
 		4B496E91D4D38570761304045B8280F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		62BFBB3C03C58180EAE2252869F54C65 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 053B95BF4583A96F812CB22BB3D1A103 /* Test.m */; };
-		66B5F473082DA25ED13DF96A37951C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7C09DE414B46B61C424BB61F28B64D6D /* Pods-vb_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DFB7A5CA89CA2764623CC81616E037 /* Pods-vb_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD225FC33C076A118ECD466FEC718EE7 /* Pods-vb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10D0D5D10AA3DC8A3467B8E0365D3E1 /* Pods-vb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB60F36B2DB734BE60046CF6836B8AC /* vb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A44CDB018973A5976779C1FDA5CA3E /* vb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD7C809A820FE5FFDE44B67E389FCAFA /* Pods-vb_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D5A3DE1B43F8FB9736F6743A01EDBD /* Pods-vb_Tests-dummy.m */; };
-		E184548F5B43B943CB3A7E75FB677EAA /* vb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CF9A94727D7E924EE7DFF028E427FC /* vb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBBF0444915F791C2050618A6AF70BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F19DF7FE8FC7FDB12E759C0F8816F053 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = CD85FBBD368C02DA9A8FB49E0815A888 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F203CDA7CEAE49ECC3E188E70F658701 /* vb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 322634701BAE9EAB48AB4402347C69EC /* vb-dummy.m */; };
+		F4F0710CA1124CCCF6D04C6481EA8098 /* Stest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5883F88F625A70FAE3E1FC2527F1176 /* Stest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23C93BBDF0E4A11EF30F4449AC4F334D /* PBXContainerItemProxy */ = {
+		815693C9543A3EEF807E60EDA32B93AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B1D2984CEFD4D7471830FBE0B54A4F3C;
 			remoteInfo = vb;
 		};
-		33BF9BECF569211BCDE22E6F87DD880B /* PBXContainerItemProxy */ = {
+		FA82A66CD0131914FA2C6A4B71948FDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,31 +39,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025E99935B86CAA97A52E90AFE42DC08 /* vb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vb.debug.xcconfig; sourceTree = "<group>"; };
-		053B95BF4583A96F812CB22BB3D1A103 /* Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = vb/Classes/Test.m; sourceTree = "<group>"; };
+		082F8C23A8C0F803B1034DAEC34EAE92 /* Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = vb/Classes/Test.m; sourceTree = "<group>"; };
 		0EA7C31A5EF0CC971854CEFCFA2A2871 /* vb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = vb; path = vb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC977FBF13A01CBF7176CBF5698889D /* Pods-vb_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vb_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		19CF9A94727D7E924EE7DFF028E427FC /* vb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vb-umbrella.h"; sourceTree = "<group>"; };
 		23D4808D84AFC1B1DA6DB9169B7FD7D6 /* Pods-vb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vb_Example.release.xcconfig"; sourceTree = "<group>"; };
-		31C246DEDC928F67C56C8C471CEB77F6 /* vb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vb-prefix.pch"; sourceTree = "<group>"; };
-		322634701BAE9EAB48AB4402347C69EC /* vb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vb-dummy.m"; sourceTree = "<group>"; };
+		3091293681C463E6DFEC535C93D91247 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		34B93E2068C4DB9F330D829FF4EA2364 /* vb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vb-prefix.pch"; sourceTree = "<group>"; };
+		37A44CDB018973A5976779C1FDA5CA3E /* vb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vb-umbrella.h"; sourceTree = "<group>"; };
+		381FFBE30451EF59F47B8543D0FC09DB /* vb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vb.release.xcconfig; sourceTree = "<group>"; };
+		4221EBD4A7FA8FF03DE3D4D94A803C28 /* vb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "vb-Info.plist"; sourceTree = "<group>"; };
 		42FACE0A8B71F6E78BF298235F135D24 /* Pods-vb_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vb_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		432A70B68155E7269CEB010D1F8181C2 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Test.h; path = vb/Classes/Test.h; sourceTree = "<group>"; };
+		5060CD17B8F19B6581D6BA8406A1F2EE /* vb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vb-dummy.m"; sourceTree = "<group>"; };
 		56132B9C815C340AC187F1AAE2231846 /* Pods-vb_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vb_Example-Info.plist"; sourceTree = "<group>"; };
 		56DFB7A5CA89CA2764623CC81616E037 /* Pods-vb_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vb_Example-umbrella.h"; sourceTree = "<group>"; };
 		5D69D684806F89A134D20E6E6C70210C /* Pods-vb_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vb_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5FC6AB855F10E5968D7E7130F930B917 /* Pods-vb_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vb_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		62B87F9DC9C9764CDD7A041758E22173 /* vb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = vb.modulemap; sourceTree = "<group>"; };
 		62D5A3DE1B43F8FB9736F6743A01EDBD /* Pods-vb_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vb_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		745CCBEAF4D2790284BD6F1C8968E84F /* vb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vb.release.xcconfig; sourceTree = "<group>"; };
-		7D4AF488A1A8A6B28D089334EC984131 /* vb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = vb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7EE479EA989012C634620376D1D2C48E /* Pods-vb_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vb_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0D4FED6BF18AF6F5F59CA1D76074D50 /* vb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "vb-Info.plist"; sourceTree = "<group>"; };
-		A17F31DC956C9B081542DC74EDB762FD /* vb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = vb.modulemap; sourceTree = "<group>"; };
+		A5883F88F625A70FAE3E1FC2527F1176 /* Stest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stest.swift; path = vb/Classes/Stest.swift; sourceTree = "<group>"; };
+		A91BAB447D61C73C08C95649CFDD5FC3 /* vb.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = vb.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCF1C296534C627EC60A8DE1D0B5E071 /* Pods-vb_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vb_Tests-Info.plist"; sourceTree = "<group>"; };
+		C1CA5063680C91695D5E1BE6DDFCCFF5 /* vb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vb.debug.xcconfig; sourceTree = "<group>"; };
 		CB2A9A88F0F2F9C0FDA54D2A9EAAC01F /* Pods-vb_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-vb_Tests"; path = Pods_vb_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD85FBBD368C02DA9A8FB49E0815A888 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Test.h; path = vb/Classes/Test.h; sourceTree = "<group>"; };
-		D1CC722CFF625F06E55DC3B37DC8B09A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D251C0E4C989626B8FC2C1DEDF81CDDA /* Pods-vb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vb_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2AFCE7967681EEE659BD9E063BAA96B /* Pods-vb_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vb_Example.modulemap"; sourceTree = "<group>"; };
 		D3173EBF91506A72CD8B58C9F02BFD8F /* Pods-vb_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vb_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,15 +73,15 @@
 		E3124B56B6F6531DC9752DD6192DC771 /* Pods-vb_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vb_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EAE287AD2525DDB7CFAFDF4B4602606C /* Pods-vb_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vb_Tests.modulemap"; sourceTree = "<group>"; };
 		F5B6A5085A032831A0E18EE3B5DB2CCA /* Pods-vb_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vb_Example-dummy.m"; sourceTree = "<group>"; };
-		FC56EF4583FBAAC9139023B097ACF146 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F8BEFA39924694F1C22C33677C846C6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		95B964A1B8BE3474033F6BAD8C9DC50C /* Frameworks */ = {
+		A144721A5FCE710445BF7853F00C662F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B5F473082DA25ED13DF96A37951C78 /* Foundation.framework in Frameworks */,
+				410898EED88295C6271EDFF650DFF7D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,16 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C9510435892F06DFADD5ACC87941122 /* Support Files */ = {
+		162CA77E3BB6212F5A51AEA6A3C6D31D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A17F31DC956C9B081542DC74EDB762FD /* vb.modulemap */,
-				322634701BAE9EAB48AB4402347C69EC /* vb-dummy.m */,
-				A0D4FED6BF18AF6F5F59CA1D76074D50 /* vb-Info.plist */,
-				31C246DEDC928F67C56C8C471CEB77F6 /* vb-prefix.pch */,
-				19CF9A94727D7E924EE7DFF028E427FC /* vb-umbrella.h */,
-				025E99935B86CAA97A52E90AFE42DC08 /* vb.debug.xcconfig */,
-				745CCBEAF4D2790284BD6F1C8968E84F /* vb.release.xcconfig */,
+				80897EBDEAA31FFFD8A94895E4E63DFB /* vb */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DA52F60F568BE598A987C212BFB89FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62B87F9DC9C9764CDD7A041758E22173 /* vb.modulemap */,
+				5060CD17B8F19B6581D6BA8406A1F2EE /* vb-dummy.m */,
+				4221EBD4A7FA8FF03DE3D4D94A803C28 /* vb-Info.plist */,
+				34B93E2068C4DB9F330D829FF4EA2364 /* vb-prefix.pch */,
+				37A44CDB018973A5976779C1FDA5CA3E /* vb-umbrella.h */,
+				C1CA5063680C91695D5E1BE6DDFCCFF5 /* vb.debug.xcconfig */,
+				381FFBE30451EF59F47B8543D0FC09DB /* vb.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/vb";
@@ -135,22 +145,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A464B61689C073F6AC42B179294F7E2 /* Pod */ = {
+		5FB02AF590AC53219217BCC92655E926 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D1CC722CFF625F06E55DC3B37DC8B09A /* LICENSE */,
-				FC56EF4583FBAAC9139023B097ACF146 /* README.md */,
-				7D4AF488A1A8A6B28D089334EC984131 /* vb.podspec */,
+				F8BEFA39924694F1C22C33677C846C6B /* LICENSE */,
+				3091293681C463E6DFEC535C93D91247 /* README.md */,
+				A91BAB447D61C73C08C95649CFDD5FC3 /* vb.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		8CA63A54B2FCC612D9A5637175DDEEA9 /* Development Pods */ = {
+		80897EBDEAA31FFFD8A94895E4E63DFB /* vb */ = {
 			isa = PBXGroup;
 			children = (
-				94D37FBA86EB2FA0ADC9B4C68BD197BA /* vb */,
+				A5883F88F625A70FAE3E1FC2527F1176 /* Stest.swift */,
+				432A70B68155E7269CEB010D1F8181C2 /* Test.h */,
+				082F8C23A8C0F803B1034DAEC34EAE92 /* Test.m */,
+				5FB02AF590AC53219217BCC92655E926 /* Pod */,
+				3DA52F60F568BE598A987C212BFB89FA /* Support Files */,
 			);
-			name = "Development Pods";
+			name = vb;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		920CCF1FAD8502324FAC66CFDD1BEB50 /* Pods-vb_Example */ = {
@@ -186,18 +201,6 @@
 			path = "Target Support Files/Pods-vb_Tests";
 			sourceTree = "<group>";
 		};
-		94D37FBA86EB2FA0ADC9B4C68BD197BA /* vb */ = {
-			isa = PBXGroup;
-			children = (
-				CD85FBBD368C02DA9A8FB49E0815A888 /* Test.h */,
-				053B95BF4583A96F812CB22BB3D1A103 /* Test.m */,
-				7A464B61689C073F6AC42B179294F7E2 /* Pod */,
-				1C9510435892F06DFADD5ACC87941122 /* Support Files */,
-			);
-			name = vb;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BA610502B79B0877639A8DE16F04AFBB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8CA63A54B2FCC612D9A5637175DDEEA9 /* Development Pods */,
+				162CA77E3BB6212F5A51AEA6A3C6D31D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4ECAF0EC4D01A99EAD23A00179C25A5C /* Products */,
 				BA610502B79B0877639A8DE16F04AFBB /* Targets Support Files */,
@@ -229,6 +232,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		612048AADD2971D2323C25142EAB9866 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063A14782E193B52BCF44B9EB9EB8AD7 /* Test.h in Headers */,
+				BEB60F36B2DB734BE60046CF6836B8AC /* vb-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91C463C4AD74F5C94A39CE27E9E0F021 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,15 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD225FC33C076A118ECD466FEC718EE7 /* Pods-vb_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF1479AC403057D77ADE7400E5F2B903 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F19DF7FE8FC7FDB12E759C0F8816F053 /* Test.h in Headers */,
-				E184548F5B43B943CB3A7E75FB677EAA /* vb-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0DFC83B02FE49D4306001E69704BC2D0 /* PBXTargetDependency */,
+				7019C0CCB90F4FA9B3BB14FF3974088F /* PBXTargetDependency */,
 			);
 			name = "Pods-vb_Tests";
 			productName = Pods_vb_Tests;
@@ -288,7 +291,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				54C57CE1EF3889614CFAC586A4391782 /* PBXTargetDependency */,
+				AB5B80049D0480B167AFCEB11F755CB1 /* PBXTargetDependency */,
 			);
 			name = "Pods-vb_Example";
 			productName = Pods_vb_Example;
@@ -297,12 +300,12 @@
 		};
 		B1D2984CEFD4D7471830FBE0B54A4F3C /* vb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1431836436FE7CD6BEEA08F7FEB02C8 /* Build configuration list for PBXNativeTarget "vb" */;
+			buildConfigurationList = 77AF7F2C21292AD90B9D866E6855E7A9 /* Build configuration list for PBXNativeTarget "vb" */;
 			buildPhases = (
-				EF1479AC403057D77ADE7400E5F2B903 /* Headers */,
-				5B679973C0B8C84A2BC1EED0AF1D88BF /* Sources */,
-				95B964A1B8BE3474033F6BAD8C9DC50C /* Frameworks */,
-				16CAC64FD9EA98258E31B3E6F57E762E /* Resources */,
+				612048AADD2971D2323C25142EAB9866 /* Headers */,
+				96A780E7219DC1F5B2BB7E7568A9EAB5 /* Sources */,
+				A144721A5FCE710445BF7853F00C662F /* Frameworks */,
+				D6EF546731378D244EAAFEF7D8011DD0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16CAC64FD9EA98258E31B3E6F57E762E /* Resources */ = {
+		D6EF546731378D244EAAFEF7D8011DD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,20 +370,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B679973C0B8C84A2BC1EED0AF1D88BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62BFBB3C03C58180EAE2252869F54C65 /* Test.m in Sources */,
-				F203CDA7CEAE49ECC3E188E70F658701 /* vb-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		74C55587CB75CDC4BBC00AF0BE952D37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD7C809A820FE5FFDE44B67E389FCAFA /* Pods-vb_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A780E7219DC1F5B2BB7E7568A9EAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F0710CA1124CCCF6D04C6481EA8098 /* Stest.swift in Sources */,
+				3D2483C1628AF55207D28F82FDA70C68 /* Test.m in Sources */,
+				1FC82F84701A4326177E0F7673100D7D /* vb-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +399,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DFC83B02FE49D4306001E69704BC2D0 /* PBXTargetDependency */ = {
+		7019C0CCB90F4FA9B3BB14FF3974088F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-vb_Example";
 			target = 9D60E773435A495FEA1B1938F9989728 /* Pods-vb_Example */;
-			targetProxy = 33BF9BECF569211BCDE22E6F87DD880B /* PBXContainerItemProxy */;
+			targetProxy = FA82A66CD0131914FA2C6A4B71948FDE /* PBXContainerItemProxy */;
 		};
-		54C57CE1EF3889614CFAC586A4391782 /* PBXTargetDependency */ = {
+		AB5B80049D0480B167AFCEB11F755CB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = vb;
 			target = B1D2984CEFD4D7471830FBE0B54A4F3C /* vb */;
-			targetProxy = 23C93BBDF0E4A11EF30F4449AC4F334D /* PBXContainerItemProxy */;
+			targetProxy = 815693C9543A3EEF807E60EDA32B93AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -572,9 +576,9 @@
 			};
 			name = Release;
 		};
-		B82B7B1ED9668A9E104CC1DDCE2C8968 /* Debug */ = {
+		A770D27DF0F302FC4BBE22EA35C74209 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 025E99935B86CAA97A52E90AFE42DC08 /* vb.debug.xcconfig */;
+			baseConfigurationReference = C1CA5063680C91695D5E1BE6DDFCCFF5 /* vb.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -602,6 +606,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		BB05C77E3EC3A475DE182FD0B258EB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381FFBE30451EF59F47B8543D0FC09DB /* vb.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/vb/vb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/vb/vb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/vb/vb.modulemap";
+				PRODUCT_MODULE_NAME = vb;
+				PRODUCT_NAME = vb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -669,38 +705,6 @@
 			};
 			name = Debug;
 		};
-		DBD37338E55417D7A817E07E9CF842A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 745CCBEAF4D2790284BD6F1C8968E84F /* vb.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/vb/vb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/vb/vb-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/vb/vb.modulemap";
-				PRODUCT_MODULE_NAME = vb;
-				PRODUCT_NAME = vb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DC5DFD6624E3A2A8667C80840AB79027 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23D4808D84AFC1B1DA6DB9169B7FD7D6 /* Pods-vb_Example.release.xcconfig */;
@@ -756,20 +760,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		77AF7F2C21292AD90B9D866E6855E7A9 /* Build configuration list for PBXNativeTarget "vb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A770D27DF0F302FC4BBE22EA35C74209 /* Debug */,
+				BB05C77E3EC3A475DE182FD0B258EB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A081C7CB00C89139DC545EF410512551 /* Build configuration list for PBXNativeTarget "Pods-vb_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CFD8D46A2447E252522E227AF110E76 /* Debug */,
 				12CE9EE6DF60A7D9BD2D528226748382 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1431836436FE7CD6BEEA08F7FEB02C8 /* Build configuration list for PBXNativeTarget "vb" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B82B7B1ED9668A9E104CC1DDCE2C8968 /* Debug */,
-				DBD37338E55417D7A817E07E9CF842A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

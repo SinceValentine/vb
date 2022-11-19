@@ -1,6 +1,6 @@
 {
   "name": "vb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of vb.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/git_token/vb",
@@ -12,8 +12,8 @@
     "git_token": "shanshao21@163.com"
   },
   "source": {
-    "git": "https://github.com/git_token/vb.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:SinceValentine/vb.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
