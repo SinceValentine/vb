@@ -8,5 +8,7 @@
 import UIKit
 
 class SwiftTest: NSObject {
-
+    func dev() {
+        
+    }
 }
